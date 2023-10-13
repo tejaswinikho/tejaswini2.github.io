@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form 2</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>PERSONAL DETAILS</legend>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+            <label for="mname">Middle Name</label>
+            <input type="text" id="mname" name="mname">
+            <br><br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="dob">Dob</label>
+            <input type="date" id="dob" name="dob">
+        </fieldset>
+        <fieldset>
+            <legend>EDUCATIONAL DETAILS</legend>
+            <label for="department">Department</label>
+            <br><br>
+            <input type="radio" id="cs" name="department">
+            <label for="cs" class="department-label">CS</label>
+            <input type="radio" id="ec" name="department">
+            <label for="ec" class="department-label">EC</label>
+            <input type="radio" id="civil" name="department">
+            <label for="civil" class="department-label">Civil</label>
+            <br><br>
+            <label for="yog">YOG</label>
+            <input list="yop" id="yog" name="yog">
+            <datalist id="yop">
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </datalist>
+        </fieldset>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
